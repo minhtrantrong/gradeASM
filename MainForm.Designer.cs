@@ -33,7 +33,7 @@
             saveAndGradeBtn = new Button();
             mainPanel = new Panel();
             criteriaUserControl1 = new criteriaUserControl();
-            gradeUserControl1 = new gradeUserControl(criteriaUserControl1.criteriaDataGrid);
+            gradeUserControl1 = new gradeUserControl();
             mainPanel.SuspendLayout();
             SuspendLayout();
             // 
@@ -122,7 +122,7 @@
         private Button createGradeBtn;
         private Button saveAndGradeBtn;
         private Panel mainPanel;
-        internal criteriaUserControl criteriaUserControl1;
+        private criteriaUserControl criteriaUserControl1;
         private gradeUserControl gradeUserControl1;
     }
 }

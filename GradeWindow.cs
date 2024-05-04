@@ -12,9 +12,9 @@ namespace GradeASM
 {
     public partial class gradeUserControl : UserControl
     {
-        public gradeUserControl(DataGridView dataGridView)
+        public gradeUserControl()
         {
-            InitializeComponent(dataGridView);
+            InitializeComponent();
         }
     }
 }

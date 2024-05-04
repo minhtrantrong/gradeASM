@@ -16,3 +16,4 @@ D:\Tony learn to code\C_sharp\GradeASM\obj\Debug\net8.0-windows\ref\GradeASM.dll
 D:\Tony learn to code\C_sharp\GradeASM\obj\Debug\net8.0-windows\GradeASM.criteriaUserControl.resources
 D:\Tony learn to code\C_sharp\GradeASM\obj\Debug\net8.0-windows\GradeASM.gradeUserControl.resources
 D:\Tony learn to code\C_sharp\GradeASM\obj\Debug\net8.0-windows\GradeASM.MainForm.resources
+D:\Tony learn to code\C_sharp\GradeASM\obj\Debug\net8.0-windows\GradeASM.sourcelink.json
