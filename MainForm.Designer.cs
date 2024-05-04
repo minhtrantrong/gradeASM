@@ -34,7 +34,6 @@
             mainPanel = new Panel();
             criteriaUserControl1 = new criteriaUserControl();
             gradeUserControl1 = new gradeUserControl();
-            gradeUserControl2 = new gradeUserControl();
             mainPanel.SuspendLayout();
             SuspendLayout();
             // 
@@ -102,22 +101,14 @@
             gradeUserControl1.Size = new Size(846, 553);
             gradeUserControl1.TabIndex = 4;
             // 
-            // gradeUserControl2
-            // 
-            gradeUserControl2.Location = new Point(197, 12);
-            gradeUserControl2.Name = "gradeUserControl2";
-            gradeUserControl2.Size = new Size(846, 553);
-            gradeUserControl2.TabIndex = 5;
-            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1047, 577);
-            Controls.Add(gradeUserControl2);
             Controls.Add(mainPanel);
-            Controls.Add(gradeUserControl1);
             Controls.Add(criteriaUserControl1);
+            Controls.Add(gradeUserControl1);
             Name = "MainForm";
             Text = "Grade Assignment";
             WindowState = FormWindowState.Maximized;
@@ -134,6 +125,5 @@
         private Panel mainPanel;
         private criteriaUserControl criteriaUserControl1;
         private gradeUserControl gradeUserControl1;
-        private gradeUserControl gradeUserControl2;
     }
 }
