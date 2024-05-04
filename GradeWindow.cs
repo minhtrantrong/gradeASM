@@ -18,10 +18,32 @@ namespace GradeASM
         }
         public void LoadDataGrid(DataGridView dataGridView)
         {
-            //SuspendLayout();
-            //AutoScaleDimensions = new SizeF(7F, 15F);
-            //AutoScaleMode = AutoScaleMode.Font;
-
+            Controls.Clear();
+            sectionHeadLable = new Label();
+            criteriaHeadLabel = new Label();
+            // 
+            // sectionHeadLable
+            // 
+            sectionHeadLable.AutoSize = true;
+            sectionHeadLable.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            sectionHeadLable.Location = new Point(60, 40);
+            sectionHeadLable.Name = "sectionHeadLable";
+            sectionHeadLable.Size = new Size(57, 17);
+            sectionHeadLable.TabIndex = 0;
+            sectionHeadLable.Text = "Section ";
+            Controls.Add(sectionHeadLable);
+            // 
+            // criteriaHeadLabel
+            // 
+            criteriaHeadLabel.AutoSize = true;
+            criteriaHeadLabel.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            criteriaHeadLabel.Location = new Point(120, 40);
+            criteriaHeadLabel.Name = "criteriaHeadLabel";
+            criteriaHeadLabel.Size = new Size(53, 17);
+            criteriaHeadLabel.TabIndex = 0;
+            criteriaHeadLabel.Text = "Criteria";
+            Controls.Add(criteriaHeadLabel);
+            
             string currentSection = "";
             Point currentLocation = new Point(60, 40);
             //int criteriaIndentation = 60;
@@ -61,13 +83,7 @@ namespace GradeASM
                 criteriaCheckBox.Text = criteria;
                 criteriaCheckBox.UseVisualStyleBackColor = true;
                 Controls.Add(criteriaCheckBox);
-
             }
-
-            //Name = "gradeUserControl";
-            //Size = new Size(519, 370);
-            //ResumeLayout(false);
-            //PerformLayout();
         }
     }
 }
