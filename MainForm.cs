@@ -10,6 +10,7 @@ namespace GradeASM
 
         private void saveAndGradeBtn_Click(object sender, EventArgs e)
         {
+            gradeUserControl1 = new gradeUserControl(criteriaUserControl1.criteriaDataGrid);
             gradeUserControl1.Show();
             gradeUserControl1.BringToFront();
         }

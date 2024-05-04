@@ -16,5 +16,9 @@ namespace GradeASM
         {
             InitializeComponent();
         }
+        public gradeUserControl(DataGridView dataGridView)
+        {
+            InitializeComponent(dataGridView);
+        }
     }
 }

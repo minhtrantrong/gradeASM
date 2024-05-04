@@ -34,6 +34,7 @@
             mainPanel = new Panel();
             criteriaUserControl1 = new criteriaUserControl();
             gradeUserControl1 = new gradeUserControl();
+            gradeUserControl2 = new gradeUserControl();
             mainPanel.SuspendLayout();
             SuspendLayout();
             // 
@@ -76,41 +77,50 @@
             // 
             // mainPanel
             // 
-            mainPanel.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            mainPanel.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             mainPanel.Controls.Add(loadGradeBtn);
             mainPanel.Controls.Add(createGradeBtn);
             mainPanel.Controls.Add(saveAndGradeBtn);
             mainPanel.Location = new Point(12, 12);
             mainPanel.Name = "mainPanel";
-            mainPanel.Size = new Size(236, 553);
+            mainPanel.Size = new Size(179, 553);
             mainPanel.TabIndex = 2;
             // 
             // criteriaUserControl1
             // 
             criteriaUserControl1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            criteriaUserControl1.Location = new Point(254, 12);
+            criteriaUserControl1.Location = new Point(197, 12);
             criteriaUserControl1.Name = "criteriaUserControl1";
-            criteriaUserControl1.Size = new Size(781, 553);
+            criteriaUserControl1.Size = new Size(838, 553);
             criteriaUserControl1.TabIndex = 3;
             // 
             // gradeUserControl1
             // 
             gradeUserControl1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            gradeUserControl1.Location = new Point(254, 12);
+            gradeUserControl1.Location = new Point(197, 12);
             gradeUserControl1.Name = "gradeUserControl1";
-            gradeUserControl1.Size = new Size(789, 553);
+            gradeUserControl1.Size = new Size(846, 553);
             gradeUserControl1.TabIndex = 4;
+            // 
+            // gradeUserControl2
+            // 
+            gradeUserControl2.Location = new Point(197, 12);
+            gradeUserControl2.Name = "gradeUserControl2";
+            gradeUserControl2.Size = new Size(846, 553);
+            gradeUserControl2.TabIndex = 5;
             // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1047, 577);
+            Controls.Add(gradeUserControl2);
+            Controls.Add(mainPanel);
             Controls.Add(gradeUserControl1);
             Controls.Add(criteriaUserControl1);
-            Controls.Add(mainPanel);
             Name = "MainForm";
             Text = "Grade Assignment";
+            WindowState = FormWindowState.Maximized;
             Load += templateForm_Load;
             mainPanel.ResumeLayout(false);
             ResumeLayout(false);
@@ -124,5 +134,6 @@
         private Panel mainPanel;
         private criteriaUserControl criteriaUserControl1;
         private gradeUserControl gradeUserControl1;
+        private gradeUserControl gradeUserControl2;
     }
 }
