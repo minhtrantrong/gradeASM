@@ -34,6 +34,7 @@
             mainPanel = new Panel();
             criteriaUserControl1 = new criteriaUserControl();
             gradeUserControl1 = new gradeUserControl();
+            button1 = new Button();
             mainPanel.SuspendLayout();
             SuspendLayout();
             // 
@@ -70,7 +71,7 @@
             saveAndGradeBtn.Name = "saveAndGradeBtn";
             saveAndGradeBtn.Size = new Size(141, 84);
             saveAndGradeBtn.TabIndex = 0;
-            saveAndGradeBtn.Text = "Save  and Start Grading";
+            saveAndGradeBtn.Text = "Start Grading";
             saveAndGradeBtn.UseVisualStyleBackColor = false;
             saveAndGradeBtn.Click += saveAndGradeBtn_Click;
             // 
@@ -101,14 +102,24 @@
             gradeUserControl1.Size = new Size(846, 553);
             gradeUserControl1.TabIndex = 4;
             // 
+            // button1
+            // 
+            button1.Location = new Point(691, 314);
+            button1.Name = "button1";
+            button1.Size = new Size(8, 8);
+            button1.TabIndex = 5;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1047, 577);
+            Controls.Add(gradeUserControl1);
+            Controls.Add(button1);
             Controls.Add(mainPanel);
             Controls.Add(criteriaUserControl1);
-            Controls.Add(gradeUserControl1);
             Name = "MainForm";
             Text = "Grade Assignment";
             WindowState = FormWindowState.Maximized;
@@ -125,5 +136,6 @@
         private Panel mainPanel;
         private criteriaUserControl criteriaUserControl1;
         private gradeUserControl gradeUserControl1;
+        private Button button1;
     }
 }

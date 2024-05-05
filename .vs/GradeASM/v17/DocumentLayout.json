@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\Tony learn to code\\C_sharp\\GradeASM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|D:\\Tony learn to code\\C_sharp\\GradeASM\\gradewindow.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|solutionrelative:gradewindow.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|D:\\Tony learn to code\\C_sharp\\GradeASM\\gradewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|solutionrelative:gradewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|d:\\tony learn to code\\c_sharp\\gradeasm\\gradewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|solutionrelative:gradewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|D:\\Tony learn to code\\C_sharp\\GradeASM\\criteriaedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|solutionrelative:criteriaedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|D:\\Tony learn to code\\C_sharp\\GradeASM\\gradewindow.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|solutionrelative:gradewindow.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|D:\\Tony learn to code\\C_sharp\\GradeASM\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|D:\\Tony learn to code\\C_sharp\\GradeASM\\gradewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|solutionrelative:gradewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|D:\\Tony learn to code\\C_sharp\\GradeASM\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,8 +27,8 @@
       "RelativeMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|solutionrelative:mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|D:\\Tony learn to code\\C_sharp\\GradeASM\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|D:\\Tony learn to code\\C_sharp\\GradeASM\\criteriaedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|solutionrelative:criteriaedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|D:\\Tony learn to code\\C_sharp\\GradeASM\\criteriaedit.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,50 +54,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "criteriaEdit.Designer.cs",
-              "DocumentMoniker": "D:\\Tony learn to code\\C_sharp\\GradeASM\\criteriaEdit.Designer.cs",
-              "RelativeDocumentMoniker": "criteriaEdit.Designer.cs",
-              "ToolTip": "D:\\Tony learn to code\\C_sharp\\GradeASM\\criteriaEdit.Designer.cs",
-              "RelativeToolTip": "criteriaEdit.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T09:36:37.134Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "D:\\Tony learn to code\\C_sharp\\GradeASM\\MainForm.cs",
-              "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "D:\\Tony learn to code\\C_sharp\\GradeASM\\MainForm.cs",
-              "RelativeToolTip": "MainForm.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwA4AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T09:42:03.666Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
               "Title": "MainForm.Designer.cs",
               "DocumentMoniker": "D:\\Tony learn to code\\C_sharp\\GradeASM\\MainForm.Designer.cs",
               "RelativeDocumentMoniker": "MainForm.Designer.cs",
               "ToolTip": "D:\\Tony learn to code\\C_sharp\\GradeASM\\MainForm.Designer.cs",
               "RelativeToolTip": "MainForm.Designer.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAkwIEAAAAAAAAA",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAkwI0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T09:33:04.008Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "D:\\Tony learn to code\\C_sharp\\GradeASM\\MainForm.cs",
-              "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "D:\\Tony learn to code\\C_sharp\\GradeASM\\MainForm.cs [Design]",
-              "RelativeToolTip": "MainForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T09:27:50.779Z"
+              "WhenOpened": "2024-05-04T09:33:04.008Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -107,13 +73,14 @@
               "RelativeDocumentMoniker": "criteriaEdit.cs",
               "ToolTip": "D:\\Tony learn to code\\C_sharp\\GradeASM\\criteriaEdit.cs",
               "RelativeToolTip": "criteriaEdit.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAowAAAAAAAAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowCoAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T09:37:47.953Z"
+              "WhenOpened": "2024-05-04T09:37:47.953Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "GradeWindow.cs [Design]",
               "DocumentMoniker": "D:\\Tony learn to code\\C_sharp\\GradeASM\\GradeWindow.cs",
               "RelativeDocumentMoniker": "GradeWindow.cs",
@@ -125,39 +92,78 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GradeWindow.Designer.cs",
-              "DocumentMoniker": "D:\\Tony learn to code\\C_sharp\\GradeASM\\GradeWindow.Designer.cs",
-              "RelativeDocumentMoniker": "GradeWindow.Designer.cs",
-              "ToolTip": "D:\\Tony learn to code\\C_sharp\\GradeASM\\GradeWindow.Designer.cs",
-              "RelativeToolTip": "GradeWindow.Designer.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAqwCIAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T09:34:59.413Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "criteriaEdit.cs [Design]",
               "DocumentMoniker": "D:\\Tony learn to code\\C_sharp\\GradeASM\\criteriaEdit.cs",
               "RelativeDocumentMoniker": "criteriaEdit.cs",
               "ToolTip": "D:\\Tony learn to code\\C_sharp\\GradeASM\\criteriaEdit.cs [Design]",
               "RelativeToolTip": "criteriaEdit.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T09:36:34.553Z"
+              "WhenOpened": "2024-05-04T09:36:34.553Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\Tony learn to code\\C_sharp\\GradeASM\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "D:\\Tony learn to code\\C_sharp\\GradeASM\\MainForm.cs",
+              "RelativeToolTip": "MainForm.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAADwvygAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T09:42:03.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GradeWindow.Designer.cs",
+              "DocumentMoniker": "D:\\Tony learn to code\\C_sharp\\GradeASM\\GradeWindow.Designer.cs",
+              "RelativeDocumentMoniker": "GradeWindow.Designer.cs",
+              "ToolTip": "D:\\Tony learn to code\\C_sharp\\GradeASM\\GradeWindow.Designer.cs",
+              "RelativeToolTip": "GradeWindow.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T09:34:59.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "GradeWindow.cs",
               "DocumentMoniker": "D:\\Tony learn to code\\C_sharp\\GradeASM\\GradeWindow.cs",
               "RelativeDocumentMoniker": "GradeWindow.cs",
               "ToolTip": "D:\\Tony learn to code\\C_sharp\\GradeASM\\GradeWindow.cs",
               "RelativeToolTip": "GradeWindow.cs",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAUwCEAAAArAAAA",
+              "ViewState": "AQIAACwAAAAAAAAAAAAkwDwAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-04T10:12:44.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "D:\\Tony learn to code\\C_sharp\\GradeASM\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "D:\\Tony learn to code\\C_sharp\\GradeASM\\MainForm.cs [Design]",
+              "RelativeToolTip": "MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T03:28:18.726Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "criteriaEdit.Designer.cs",
+              "DocumentMoniker": "D:\\Tony learn to code\\C_sharp\\GradeASM\\criteriaEdit.Designer.cs",
+              "RelativeDocumentMoniker": "criteriaEdit.Designer.cs",
+              "ToolTip": "D:\\Tony learn to code\\C_sharp\\GradeASM\\criteriaEdit.Designer.cs",
+              "RelativeToolTip": "criteriaEdit.Designer.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAgwCsAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T09:36:37.134Z",
               "EditorCaption": ""
             }
           ]

@@ -1,3 +1,8 @@
+using System.Windows.Forms;
+using System;
+using System.Data;
+using System.IO;
+
 namespace GradeASM
 {
     public partial class MainForm : Form
@@ -7,16 +12,41 @@ namespace GradeASM
         {
             InitializeComponent();
         }
+        private DataTable CSVtoDataTable(string csvFilePath)
+        {
+            DataTable dataTable = new DataTable();
 
+            // Read the CSV file
+            string[] csvLines = File.ReadAllLines(csvFilePath);
+
+            // Assume the first line contains the column headers
+            string[] headers = csvLines[0].Split(',');
+            foreach (string header in headers)
+            {
+                dataTable.Columns.Add(header);
+            }
+
+            // Read the remaining lines and add them as rows to the DataTable
+            for (int i = 1; i < csvLines.Length; i++)
+            {
+                string[] values = csvLines[i].Split(',');
+                dataTable.Rows.Add(values);
+            }
+            return dataTable;
+        }
         private void saveAndGradeBtn_Click(object sender, EventArgs e)
         {
             gradeUserControl1.LoadDataGrid(criteriaUserControl1.criteriaDataGrid);
             gradeUserControl1.Show();
             gradeUserControl1.BringToFront();
+            //criteriaUserControl1.SaveToCSV(criteriaUserControl1.criteriaDataGrid, true);
         }
 
         private void createGradeBtn_Click(object sender, EventArgs e)
         {
+            string csvfilePath = Path.Combine(Directory.GetCurrentDirectory(), "startupLoad.csv");
+            DataTable criteriaDataTable = CSVtoDataTable(csvfilePath);
+            criteriaUserControl1.criteriaDataGrid.DataSource = criteriaDataTable;
             criteriaUserControl1.Show();
             criteriaUserControl1.BringToFront();
         }

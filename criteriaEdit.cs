@@ -17,7 +17,7 @@ namespace GradeASM
         {
             InitializeComponent();
         }
-        private void SaveToCSV(DataGridView dataGridView)
+        public void SaveToCSV(DataGridView dataGridView, bool startupLoad=false)
         {
             StringBuilder sb = new StringBuilder();
 
@@ -35,17 +35,26 @@ namespace GradeASM
                     .Select(cell => cell.Value?.ToString() ?? string.Empty);
                 sb.AppendLine(string.Join(",", rowData));
             }
-
-            // Save to CSV file
-            SaveFileDialog saveFileDialog = new SaveFileDialog();
-            saveFileDialog.Filter = "CSV files (*.csv)|*.csv";
-            saveFileDialog.Title = "Save CSV File";
-            if (saveFileDialog.ShowDialog() == DialogResult.OK)
+            if (startupLoad)
             {
-                string filePath = saveFileDialog.FileName;
+                string filePath = Path.Combine(Directory.GetCurrentDirectory(), "startupLoad.csv");
                 File.WriteAllText(filePath, sb.ToString());
-                MessageBox.Show("CSV file saved successfully!");
+                MessageBox.Show($"Template file has been saved successfully at {filePath}!");
+            } 
+            else
+            {
+                // Save to CSV file
+                SaveFileDialog saveFileDialog = new SaveFileDialog();
+                saveFileDialog.Filter = "CSV files (*.csv)|*.csv";
+                saveFileDialog.Title = "Save CSV File";
+                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    string filePath = saveFileDialog.FileName;
+                    File.WriteAllText(filePath, sb.ToString());
+                    MessageBox.Show("CSV file has been saved successfully!");
+                }
             }
+            
         }
         private void saveTemplateBtn_Click(object sender, EventArgs e)
         {

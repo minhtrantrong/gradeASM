@@ -28,18 +28,37 @@
         /// </summary>
         private void InitializeComponent()
         {
+            confirmGradeBtn = new Button();
             SuspendLayout();
+            // 
+            // confirmGradeBtn
+            // 
+            confirmGradeBtn.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            confirmGradeBtn.BackColor = SystemColors.ActiveCaption;
+            confirmGradeBtn.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            confirmGradeBtn.Location = new Point(653, 364);
+            confirmGradeBtn.Name = "confirmGradeBtn";
+            confirmGradeBtn.Size = new Size(133, 27);
+            confirmGradeBtn.TabIndex = 0;
+            confirmGradeBtn.Text = "Confirm Grade";
+            confirmGradeBtn.UseVisualStyleBackColor = false;
+            // 
+            // gradeUserControl
+            // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(confirmGradeBtn);
             Name = "gradeUserControl";
             Size = new Size(800, 400);
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
-        
+
         private Label sectionHeadLable;
         private Label criteriaHeadLabel;
+        private Label markHeaderLabel;
+        private Label commentHeaderLabel;
+        private Button confirmGradeBtn;
     }
 }
