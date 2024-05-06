@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Text.Json;
 using System.Collections;
 
+
 namespace GradeASM
 {
     public partial class gradeUserControl : UserControl
@@ -18,6 +19,7 @@ namespace GradeASM
         {
             InitializeComponent();
         }
+        public event EventHandler newGradeClicked;
         private Dictionary<string, List<string>> criteriaDict = 
             new Dictionary<string, List<string>>();
         private Dictionary<string, Dictionary<string, List<string>>> gradeDict =
@@ -226,6 +228,10 @@ namespace GradeASM
                 resultComment += $"\n In section {section}: \n";
                 // Update based on COMPLETED
                 resultComment += "\t You have completed: \n";
+                if (gradeDict[section][COMPLETED].Count == 0) 
+                {
+                    resultComment += "\t\t Nothing \n";
+                }
                 foreach (string criteriaName in gradeDict[section][COMPLETED])
                 {
                     // Update the totalMark
@@ -237,32 +243,94 @@ namespace GradeASM
                 // Update based on UNCOMPLETED
                 if (gradeDict[section][UNCOMPLETED].Count == 0) continue;
                 resultComment += "\t You should: \n";
+                string improveComment = "\t For improving, you should: \n";
                 foreach (string criteriaName in gradeDict[section][UNCOMPLETED])
                 {
                     // Update the resultComment
                     resultComment += $"\t\t - {criteriaDict[criteriaName][3]}: \n";
                     if (criteriaDict[criteriaName][1].Trim() != "")
                     {
-                        resultComment += $"\t\t For improving, you should: " +
-                            $"{criteriaDict[criteriaName][1]}";
+                        improveComment += $"\t\t - {criteriaDict[criteriaName][1]} \n";
                     }
+                }
+                if (improveComment != "\t You should: \n")
+                {
+                    resultComment += improveComment;
                 }
             }
             return (resultComment, totalMark);
+        }
+        private void LoadGradeResults(string comment, float totalMark)
+        {
+            Controls.Clear();
+            // Create the section label
+            Label resultsLabel = new Label();
+            resultsLabel.AutoSize = true;
+            resultsLabel.Location = new Point(60, 40);
+            resultsLabel.Text = "Grade results";
+            resultsLabel.Name = "resultsLabel";
+            Controls.Add(resultsLabel);
+            // Create the Mark label
+            Label totalMarkLabel = new Label();
+            resultsLabel.AutoSize = true;
+            resultsLabel.Location = new Point(60, 80);
+            resultsLabel.Text = "Total Mark: ";
+            resultsLabel.Name = "resultsLabel";
+            Controls.Add(resultsLabel);
+            // Create total mark textbox
+            TextBox totalMarkTextBox = new TextBox();
+            totalMarkTextBox.AutoSize = true;
+            totalMarkTextBox.Location = new Point(200, 80);
+            totalMarkTextBox.Name = "totalMarkTextBox";
+            totalMarkTextBox.Size = new Size(40, 20);
+            totalMarkTextBox.TabIndex = 0;
+            totalMarkTextBox.Text = totalMark.ToString();
+            Controls.Add(totalMarkTextBox);
+            // Create grade comments textbox
+            RichTextBox gradeCommentTextBox = new RichTextBox();
+            gradeCommentTextBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            gradeCommentTextBox.Location = new Point(60, 120);
+            gradeCommentTextBox.Name = "gradeCommentTextBox";
+            gradeCommentTextBox.Multiline = true;
+            gradeCommentTextBox.ScrollBars = RichTextBoxScrollBars.Vertical;
+            gradeCommentTextBox.Size = new Size(1400, 680);
+            gradeCommentTextBox.TabIndex = 1;
+            gradeCommentTextBox.Text = comment;
+            Controls.Add(gradeCommentTextBox);
+            //
+            // Create newGradeBtn
+            // 
+            Button newGradeBtn = new Button();
+            newGradeBtn.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            newGradeBtn.BackColor = SystemColors.ActiveCaption;
+            newGradeBtn.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            newGradeBtn.Location = new Point(1320, 840);
+            newGradeBtn.Name = "newGradeBtn";
+            newGradeBtn.Size = new Size(140, 30);
+            newGradeBtn.TabIndex = 3;
+            newGradeBtn.Text = "New Grading";
+            newGradeBtn.UseVisualStyleBackColor = false;
+            newGradeBtn.Click += newGradeBtn_Click;
+            Controls.Add(newGradeBtn);
         }
         private void confirmGradeBtn_Click(object sender, EventArgs e)
         {
             try 
             {
                 (string comment, float totalMark) = GenerateGradeResults();
-                string message = $"Total mark: {totalMark} \n Comment: {comment}";
-                MessageBox.Show(message);
+                //string message = $"Total mark: {totalMark} \n Comment: {comment}";
+                //MessageBox.Show(message);
+                this.LoadGradeResults(comment, totalMark);
             }
             catch
             {
                 MessageBox.Show("The mark in grade must be a float number", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
+        }
+        private void newGradeBtn_Click(object sender, EventArgs e) 
+        {
+            newGradeClicked?.Invoke(this, EventArgs.Empty);
         }
     }
 }

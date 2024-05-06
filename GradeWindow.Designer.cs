@@ -30,23 +30,12 @@ namespace GradeASM
         /// </summary>
         private void InitializeComponent()
         {
-            confirmGradeBtn = new Button();
             SuspendLayout();
-            // 
-            // confirmGradeBtn
-            // 
-            confirmGradeBtn.Location = new Point(617, 354);
-            confirmGradeBtn.Name = "confirmGradeBtn";
-            confirmGradeBtn.Size = new Size(151, 23);
-            confirmGradeBtn.TabIndex = 0;
-            confirmGradeBtn.Text = "Confirm Grade";
-            confirmGradeBtn.UseVisualStyleBackColor = true;
             // 
             // gradeUserControl
             // 
             AutoScaleMode = AutoScaleMode.Inherit;
             AutoSize = true;
-            Controls.Add(confirmGradeBtn);
             Name = "gradeUserControl";
             Size = new Size(800, 400);
             ResumeLayout(false);
@@ -59,5 +48,6 @@ namespace GradeASM
         private Label markHeaderLabel;
         private Label commentHeaderLabel;
         private Button confirmGradeBtn;
+        //private Button newGradeBtn;
     }
 }

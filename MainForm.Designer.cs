@@ -35,7 +35,6 @@
             EditTemplateBtn = new Button();
             criteriaUserControl1 = new criteriaUserControl();
             gradeUserControl1 = new gradeUserControl();
-            button1 = new Button();
             mainPanel.SuspendLayout();
             SuspendLayout();
             // 
@@ -116,15 +115,7 @@
             gradeUserControl1.Name = "gradeUserControl1";
             gradeUserControl1.Size = new Size(846, 629);
             gradeUserControl1.TabIndex = 4;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(691, 314);
-            button1.Name = "button1";
-            button1.Size = new Size(8, 8);
-            button1.TabIndex = 5;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            gradeUserControl1.newGradeClicked += saveAndGradeBtn_Click;
             // 
             // MainForm
             // 
@@ -132,7 +123,6 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1047, 653);
             Controls.Add(gradeUserControl1);
-            Controls.Add(button1);
             Controls.Add(mainPanel);
             Controls.Add(criteriaUserControl1);
             Name = "MainForm";
@@ -152,7 +142,6 @@
         private Panel mainPanel;
         private criteriaUserControl criteriaUserControl1;
         private gradeUserControl gradeUserControl1;
-        private Button button1;
         private Button EditTemplateBtn;
     }
 }
