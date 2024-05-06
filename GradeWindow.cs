@@ -22,8 +22,7 @@ namespace GradeASM
         public event EventHandler newGradeClicked;
         private Dictionary<string, List<string>> criteriaDict = 
             new Dictionary<string, List<string>>();
-        private Dictionary<string, Dictionary<string, List<string>>> gradeDict =
-            new Dictionary<string, Dictionary<string, List<string>>>();
+        private Dictionary<string, Dictionary<string, List<string>>> gradeDict;
         private const string COMPLETED = "completed";
         private const string UNCOMPLETED = "uncompleted";
         // Event handler for checkbox CheckedChanged event
@@ -75,6 +74,8 @@ namespace GradeASM
         {
             //this.GenerateGradeDict(dataGridView);
             Controls.Clear();
+            // Reset gradeDict
+            gradeDict = new Dictionary<string, Dictionary<string, List<string>>>();
             confirmGradeBtn = new Button();
             sectionHeadLable = new Label();
             criteriaHeadLabel = new Label();

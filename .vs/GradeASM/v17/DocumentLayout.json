@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Tony learn to code\\C_sharp\\GradeASM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|d:\\tony learn to code\\c_sharp\\gradeasm\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|D:\\Tony learn to code\\C_sharp\\GradeASM\\gradewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|solutionrelative:gradewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|D:\\Tony learn to code\\C_sharp\\GradeASM\\gradewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|solutionrelative:gradewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|d:\\tony learn to code\\c_sharp\\gradeasm\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|D:\\Tony learn to code\\C_sharp\\GradeASM\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|D:\\Tony learn to code\\C_sharp\\GradeASM\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|D:\\Tony learn to code\\C_sharp\\GradeASM\\gradewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|solutionrelative:gradewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|D:\\Tony learn to code\\C_sharp\\GradeASM\\gradewindow.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": ".gitignore",
               "DocumentMoniker": "D:\\Tony learn to code\\C_sharp\\GradeASM\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -63,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MainForm.Designer.cs",
               "DocumentMoniker": "D:\\Tony learn to code\\C_sharp\\GradeASM\\MainForm.Designer.cs",
               "RelativeDocumentMoniker": "MainForm.Designer.cs",
@@ -86,26 +86,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "GradeWindow.cs [Design]",
               "DocumentMoniker": "D:\\Tony learn to code\\C_sharp\\GradeASM\\GradeWindow.cs",
               "RelativeDocumentMoniker": "GradeWindow.cs",
               "ToolTip": "D:\\Tony learn to code\\C_sharp\\GradeASM\\GradeWindow.cs [Design]",
               "RelativeToolTip": "GradeWindow.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T02:26:59.108Z"
+              "WhenOpened": "2024-05-06T02:26:59.108Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "GradeWindow.cs",
               "DocumentMoniker": "D:\\Tony learn to code\\C_sharp\\GradeASM\\GradeWindow.cs",
               "RelativeDocumentMoniker": "GradeWindow.cs",
               "ToolTip": "D:\\Tony learn to code\\C_sharp\\GradeASM\\GradeWindow.cs",
               "RelativeToolTip": "GradeWindow.cs",
-              "ViewState": "AQIAAOkAAAAAAAAAAAAgwAEBAAA0AAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAuwEwAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T10:12:44.72Z"
+              "WhenOpened": "2024-05-04T10:12:44.72Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -121,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MainForm.cs",
               "DocumentMoniker": "D:\\Tony learn to code\\C_sharp\\GradeASM\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
@@ -141,7 +143,8 @@
               "RelativeToolTip": "GradeWindow.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T09:34:59.413Z"
+              "WhenOpened": "2024-05-04T09:34:59.413Z",
+              "EditorCaption": ""
             }
           ]
         }
