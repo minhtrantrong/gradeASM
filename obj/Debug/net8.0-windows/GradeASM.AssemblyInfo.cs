@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GradeASM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e377e39174c6db9fa600f9301de7dceedc8eb7a1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c824eaf624dac65459f62afb50545ee8563d80e7")]
 [assembly: System.Reflection.AssemblyProductAttribute("GradeASM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GradeASM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

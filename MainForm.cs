@@ -2,12 +2,13 @@ using System.Windows.Forms;
 using System;
 using System.Data;
 using System.IO;
+using System.Text.Json;
 
 namespace GradeASM
 {
     public partial class MainForm : Form
     {
-        List<Panel> listPanel = new List<Panel>();
+        
         public MainForm()
         {
             InitializeComponent();
@@ -53,6 +54,17 @@ namespace GradeASM
 
         private void loadGradeBtn_Click(object sender, EventArgs e)
         {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "CSV Files (*.csv)|*.csv";
+            openFileDialog.Title = "Select a CSV File";
+
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                string csvfilePath = openFileDialog.FileName;
+                // Process the selected CSV file
+                DataTable criteriaDataTable = CSVtoDataTable(csvfilePath);
+                criteriaUserControl1.criteriaDataGrid.DataSource = criteriaDataTable;
+            }
             criteriaUserControl1.Show();
             criteriaUserControl1.BringToFront();
         }
@@ -61,6 +73,12 @@ namespace GradeASM
         {
             criteriaUserControl1.Hide();
             gradeUserControl1.Hide();
+        }
+
+        private void EditTemplateBtn_Click(object sender, EventArgs e)
+        {
+            criteriaUserControl1.Show();
+            criteriaUserControl1.BringToFront();
         }
     }
 }

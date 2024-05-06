@@ -32,6 +32,7 @@
             createGradeBtn = new Button();
             saveAndGradeBtn = new Button();
             mainPanel = new Panel();
+            EditTemplateBtn = new Button();
             criteriaUserControl1 = new criteriaUserControl();
             gradeUserControl1 = new gradeUserControl();
             button1 = new Button();
@@ -54,7 +55,7 @@
             // 
             createGradeBtn.BackColor = SystemColors.GradientActiveCaption;
             createGradeBtn.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            createGradeBtn.Location = new Point(3, 240);
+            createGradeBtn.Location = new Point(3, 165);
             createGradeBtn.Name = "createGradeBtn";
             createGradeBtn.Size = new Size(141, 59);
             createGradeBtn.TabIndex = 0;
@@ -71,35 +72,49 @@
             saveAndGradeBtn.Name = "saveAndGradeBtn";
             saveAndGradeBtn.Size = new Size(141, 84);
             saveAndGradeBtn.TabIndex = 0;
-            saveAndGradeBtn.Text = "Start Grading";
+            saveAndGradeBtn.Text = "Save and Start Grading";
             saveAndGradeBtn.UseVisualStyleBackColor = false;
             saveAndGradeBtn.Click += saveAndGradeBtn_Click;
             // 
             // mainPanel
             // 
             mainPanel.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            mainPanel.Controls.Add(EditTemplateBtn);
             mainPanel.Controls.Add(loadGradeBtn);
             mainPanel.Controls.Add(createGradeBtn);
             mainPanel.Controls.Add(saveAndGradeBtn);
             mainPanel.Location = new Point(12, 12);
             mainPanel.Name = "mainPanel";
-            mainPanel.Size = new Size(179, 553);
+            mainPanel.Size = new Size(179, 629);
             mainPanel.TabIndex = 2;
+            // 
+            // EditTemplateBtn
+            // 
+            EditTemplateBtn.BackColor = SystemColors.GradientInactiveCaption;
+            EditTemplateBtn.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            EditTemplateBtn.Location = new Point(3, 275);
+            EditTemplateBtn.Name = "EditTemplateBtn";
+            EditTemplateBtn.Size = new Size(141, 59);
+            EditTemplateBtn.TabIndex = 1;
+            EditTemplateBtn.Text = "Edit Current Template";
+            EditTemplateBtn.UseVisualStyleBackColor = false;
+            EditTemplateBtn.Click += EditTemplateBtn_Click;
             // 
             // criteriaUserControl1
             // 
             criteriaUserControl1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             criteriaUserControl1.Location = new Point(197, 12);
             criteriaUserControl1.Name = "criteriaUserControl1";
-            criteriaUserControl1.Size = new Size(838, 553);
+            criteriaUserControl1.Size = new Size(838, 629);
             criteriaUserControl1.TabIndex = 3;
             // 
             // gradeUserControl1
             // 
             gradeUserControl1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            gradeUserControl1.AutoSize = true;
             gradeUserControl1.Location = new Point(197, 12);
             gradeUserControl1.Name = "gradeUserControl1";
-            gradeUserControl1.Size = new Size(846, 553);
+            gradeUserControl1.Size = new Size(846, 629);
             gradeUserControl1.TabIndex = 4;
             // 
             // button1
@@ -115,7 +130,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1047, 577);
+            ClientSize = new Size(1047, 653);
             Controls.Add(gradeUserControl1);
             Controls.Add(button1);
             Controls.Add(mainPanel);
@@ -126,6 +141,7 @@
             Load += templateForm_Load;
             mainPanel.ResumeLayout(false);
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -137,5 +153,6 @@
         private criteriaUserControl criteriaUserControl1;
         private gradeUserControl gradeUserControl1;
         private Button button1;
+        private Button EditTemplateBtn;
     }
 }

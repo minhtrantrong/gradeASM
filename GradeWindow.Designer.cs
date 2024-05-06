@@ -1,4 +1,6 @@
-﻿namespace GradeASM
+﻿using System.Collections;
+
+namespace GradeASM
 {
     partial class gradeUserControl
     {
@@ -33,20 +35,17 @@
             // 
             // confirmGradeBtn
             // 
-            confirmGradeBtn.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            confirmGradeBtn.BackColor = SystemColors.ActiveCaption;
-            confirmGradeBtn.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            confirmGradeBtn.Location = new Point(653, 364);
+            confirmGradeBtn.Location = new Point(617, 354);
             confirmGradeBtn.Name = "confirmGradeBtn";
-            confirmGradeBtn.Size = new Size(133, 27);
+            confirmGradeBtn.Size = new Size(151, 23);
             confirmGradeBtn.TabIndex = 0;
             confirmGradeBtn.Text = "Confirm Grade";
-            confirmGradeBtn.UseVisualStyleBackColor = false;
+            confirmGradeBtn.UseVisualStyleBackColor = true;
             // 
             // gradeUserControl
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
+            AutoScaleMode = AutoScaleMode.Inherit;
+            AutoSize = true;
             Controls.Add(confirmGradeBtn);
             Name = "gradeUserControl";
             Size = new Size(800, 400);
