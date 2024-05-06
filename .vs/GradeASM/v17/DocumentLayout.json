@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|d:\\tony learn to code\\c_sharp\\gradeasm\\gradewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|D:\\Tony learn to code\\C_sharp\\GradeASM\\gradewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C79BBA6-F41C-42E7-82CB-B51C7B421AE1}|GradeASM.csproj|solutionrelative:gradewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -42,8 +42,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -56,10 +60,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-05-06T05:59:41.369Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
@@ -93,8 +93,7 @@
               "ToolTip": "D:\\Tony learn to code\\C_sharp\\GradeASM\\GradeWindow.cs [Design]",
               "RelativeToolTip": "GradeWindow.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T02:26:59.108Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-06T02:26:59.108Z"
             },
             {
               "$type": "Document",
@@ -106,8 +105,7 @@
               "RelativeToolTip": "GradeWindow.cs",
               "ViewState": "AQIAAOkAAAAAAAAAAAAgwAEBAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T10:12:44.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-04T10:12:44.72Z"
             },
             {
               "$type": "Document",
